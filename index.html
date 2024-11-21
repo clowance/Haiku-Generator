@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bonheur+Royale&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Haiku Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>Haiku Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="haiku-generator-form">
           <input
             type="text"
             placeholder="Your haiku topic..."
@@ -29,10 +30,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="haiku">
-          The haiku goes here<br />I hope that it will be good<br />It is worth
-          a try
-        </div>
+        <div class="haiku" id="haiku"></div>
       </main>
       <footer>
         This project was coded by
