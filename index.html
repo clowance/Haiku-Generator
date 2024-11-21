@@ -4,40 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bonheur+Royale&display=swap"
+      rel="stylesheet"
+    />
     <title>Haiku Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Haiku Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Your haiku topic..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Haiku will go here<br />I hope that it will be good<br />It is worth a
-        try
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/clowance" target="_blank">Chelsea Lowance</a>
-      is
-      <a href="https://github.com/clowance/Haiku-Generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://haikuforyou.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+    <div id="container">
+      <header>
+        <h1>Haiku Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Your haiku topic..."
+            autofocus
+            required
+            autocomplete="off"
+            class="haiku-topic"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="haiku">
+          The haiku goes here<br />I hope that it will be good<br />It is worth
+          a try
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/clowance" target="_blank"
+          >Chelsea Lowance</a
+        >
+        is
+        <a href="https://github.com/clowance/Haiku-Generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://haikuforyou.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>

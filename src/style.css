@@ -1,8 +1,76 @@
 body {
   background-color: #532a36;
   text-align: center;
+  color: #532a36;
+  font-family: Bonheur Royale;
 }
 
-a {
+#container {
+  background-color: antiquewhite;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1;
+}
+
+form {
+  padding: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #532a36;
+}
+
+.haiku-topic {
+  padding: 12px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 26px;
+  border-radius: 4px;
+  line-height: 20px;
+  background: antiquewhite;
+  font-family: Bonheur Royale;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: antiquewhite;
+  color: #532a36;
+  border: none;
+  width: 150px;
+  font-size: 26px;
+  border-radius: 4px;
+  padding: 14px 24px;
+  font-family: Bonheur Royale;
+}
+
+.haiku {
+  background-color: #532a36;
   color: antiquewhite;
+  font-size: 34px;
+
+  padding: 20px;
+  line-height: 1;
+
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
